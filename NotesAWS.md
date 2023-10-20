@@ -39,11 +39,11 @@ Distributing loads (ELB)
 Scaling (ASG)
 
 To generate you need:
-	to provide or create a key pair
-	choose the type
-	will create a security group. Is necessary to allow SSH traffic and HTTP traffic from the internet
-	choose the storage
-	in advanse modify the user data to made a script exec on the service first launch
+1. to provide or create a key pair
+2. choose the type
+3. will create a security group. Is necessary to allow SSH traffic and HTTP traffic from the internet
+4. choose the storage
+5. in advanse modify the user data to made a script exec on the service first launch
 
 ## EC2 - instance types: List of instance types optimised for different cases
 
@@ -54,10 +54,10 @@ m: instance class, in this case is general porpuse
 2xlarge: size for memory + CPU, etc
 
 They can be:
-	general porpuse
-	compute optimized (gaming, ML, etc)
-	memory optimized (database, realtime)
-	storage optimized (database, etc)
++ general porpuse
++ compute optimized (gaming, ML, etc)
++ memory optimized (database, realtime)
++ storage optimized (database, etc)
 
 ## Security Groups: EC2 will use them to control the traffic
 it define the ports usages and functions
