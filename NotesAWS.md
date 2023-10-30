@@ -477,7 +477,9 @@ internet gateway VPC -> internet\
 Public subnets have a route to the internet gateway\
 not gateways: private subnets -> internet
 
-## Network ACL: firewall for subnets, rules only include IP address
+## Network ACL
+firewall for subnets, rules only include IP address\
+stateless, inbound and outboud traffic
 
 ## VPC logs
 capture information about the IP traffic
@@ -1044,4 +1046,61 @@ we can decouple RDS:
 5. Terminate the old environment
 
 # CloudFormation
+All the manual work will be very tough to reproduce:
++ In another region
++ In another AWS account
++ Within the same region if everything was deleted
 
+CloudFormation is infrastructure as code. Is a template for architecture\
+
+## Example:
++ I want a security group
++ I want two EC2 machines using this security group
++ I want two Elastic IPs for these EC2 machines
++ I want an S3 bucket
++ I want a load balancer (ELB) in front of these machines
+
+## Costs:
++ Is easy to estimate the costs
++ Saving strategy: In Dev, you could automation deletion of templates at 5 PM and recreated at 8 AM, safely
+
+## Productivity:
++ Ability to destroy and re-create an infrastructure on the fly
++ Automated generation of Diagram for templates
++ Declarative programming
+
+## Create many stacks for many apps:
++ VPC stacks
++ Network stacks
++ App stacks
+
+Templates have to be uploaded in S3 and then referenced in CloudFormation. To update a template, we can't edit previous ones. We have to re-upload a new version of the template to AWS\
+
+Manual: edit templates in the designer\
+Automated: edit templates in a YAML file. Using AWS Cli to deploy\
+
+## Template components:
+### Resources 
+EC2, ELB, ...\
+AWS figures out creation, updates and deletes for us
+### Parameters
+A way to provide inputs to your CloudFormation template
+### Mappings
+Fix variables within your Cloudformation template, dev vs prod, regions, AMI types, ...
+### Outputs
+optional\
+we can import into other stacks\
+VPC ID and subnet IDs
+### Conditions
+use to control the creation of resources or outputs based on a condition (Region, ...)
+
+## CloudFormation Rollbacks
++ Stack creation fails: everything rolls back, gets deleted
++ Stack update fails: roolsback to previous known working state
+
+## CloudFormation Stack Notifications
+send Stack events to SNS topic
+
+## CloudFormation Stack Policies
+during stack update, all update actions are allowed on all resources\
+Stack policies is a json that defines what update actions are allowed
