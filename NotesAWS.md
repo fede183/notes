@@ -1051,7 +1051,7 @@ All the manual work will be very tough to reproduce:
 + In another AWS account
 + Within the same region if everything was deleted
 
-CloudFormation is infrastructure as code. Is a template for architecture\
+CloudFormation is infrastructure as code. Is a template for architecture
 
 ## Example:
 + I want a security group
@@ -1077,7 +1077,7 @@ CloudFormation is infrastructure as code. Is a template for architecture\
 Templates have to be uploaded in S3 and then referenced in CloudFormation. To update a template, we can't edit previous ones. We have to re-upload a new version of the template to AWS\
 
 Manual: edit templates in the designer\
-Automated: edit templates in a YAML file. Using AWS Cli to deploy\
+Automated: edit templates in a YAML file. Using AWS Cli to deploy
 
 ## Template components:
 ### Resources 
