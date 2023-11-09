@@ -13,9 +13,9 @@ can be from a group or exclusive of a user
 define pass qualities. no-reuse, change in x days
 
 ## Multi factor auth:
-+ Virtual MFA device: Google AUTH, Amazon AUTHY
-+ Universal 2nd factor: yubikey
-+ Hardware KeyFob
+- Virtual MFA device: Google AUTH, Amazon AUTHY
+- Universal 2nd factor: yubikey
+- Hardware KeyFob
 
 ## Access AWS:
 AWS manager console (Pass + MFA)\
@@ -53,10 +53,10 @@ m: instance class, in this case is general purpose\
 2xlarge: size for memory + CPU, etc
 
 They can be:
-+ general purpose
-+ compute optimized (gaming, ML, etc)
-+ memory optimized (database, realtime)
-+ storage optimized (database, etc)
+- general purpose
+- compute optimized (gaming, ML, etc)
+- memory optimized (database, realtime)
+- storage optimized (database, etc)
 
 ## Security Groups: EC2 will use them to control the traffic
 it define the ports usages and functions\
@@ -67,33 +67,33 @@ if you see a timeout in EC2, it will be related to the security group config
 
 ## Pricing:
 EC2 on demand
-+ high cost, no up front payments
-+ no long-term
+- high cost, no up front payments
+- no long-term
 
 EC2 reserved
-+ reserve specific instance
-+ more years - more discount
+- reserve specific instance
+- more years - more discount
 
 EC2 reserved convertable
-+ same but you can convert instance details
+- same but you can convert instance details
 
 EC2 saving plans
-+ flexible size
-+ more discount - more long term commitment
+- flexible size
+- more discount - more long term commitment
 
 EC2 spot instance
-+ more discount but you can lose them if your demand grows
+- more discount but you can lose them if your demand grows
 
 EC2 dedicated hosts
-+ a physical server
-+ allows to use your own
+- a physical server
+- allows to use your own
 
 EC2 dedicated instance
-+ hardware dedicated to you
-+ low level access
+- hardware dedicated to you
+- low level access
 
 EC2 capacity reservations
-+ no discount, get access on demand when you need it
+- no discount, get access on demand when you need it
 
 # EBS - Elastic Block Store
 network drive that you can attach to your instance\
@@ -593,12 +593,12 @@ already include in AWS SDK API
 
 ## AWS CLI credentials provide chain
 The CLI look for credentials;
-+ command line options
-+ ENV vars
-+ CLI Credentials file
-+ CLI Configuration file
-+ Container credentials
-+ Instance profile credentials
+- command line options
+- ENV vars
+- CLI Credentials file
+- CLI Configuration file
+- Container credentials
+- Instance profile credentials
 
 ## AWS SDK default CPC
 	java system properties\
@@ -883,13 +883,13 @@ we control how many tasks can be started and stopped, and the order
 ## ECS task definitions
 task definitions are metadata in json, tells ECS how to run docker\
 contains:
-+ image name
-+ port binding
-+ memory and cpu required
-+ ENV vars
-+ network information
-+ IAM role
-+ logging configuration
+- image name
+- port binding
+- memory and cpu required
+- ENV vars
+- network information
+- IAM role
+- logging configuration
 
 can be define up to 10 containers for task definition
 
@@ -977,10 +977,10 @@ no nodes to see
 needs storage class\
 leverages a container storage interface (CSI)\
 supports:
-+ EBS
-+ EFS
-+ FSX for Lustre
-+ FSX for net app
+- EBS
+- EFS
+- FSX for Lustre
+- FSX for net app
 
 # Elastic Beanstalk
 is a developer centric view of deployment an application on AWS, let's you thing in the architecture as if was code\
@@ -991,9 +991,9 @@ uses CloudFormation under the hood
 
 ## Elastic Benstalk - Components
 
-+ Application: collection of Elastic Beanstalk components
-+ Application Version: iteration of your application code
-+ Environment: collection of AWS resources running an application version
+- Application: collection of Elastic Beanstalk components
+- Application Version: iteration of your application code
+- Environment: collection of AWS resources running an application version
 
 ## Web Server Tier vs Worker Tier
 | Web Server Tier | Worker Environment                                          |
@@ -1008,12 +1008,12 @@ uses CloudFormation under the hood
 | Great for dev   | Great for prod                       |
 
 ## Benstalk deployment options for updates
-+ All at once: fastest, instances had downtime
-+ Rolling: update a few instances at a time
-+ Rolling with additional batches: like rolling but spins up new instances to move the batch
-+ Immutable: spins up new instances in a new ASG
-+ Blue Green: create a new environment and switch over when ready
-+ Traffic Splitting: canary testing
+- All at once: fastest, instances had downtime
+- Rolling: update a few instances at a time
+- Rolling with additional batches: like rolling but spins up new instances to move the batch
+- Immutable: spins up new instances in a new ASG
+- Blue Green: create a new environment and switch over when ready
+- Traffic Splitting: canary testing
 
 ## Benstalk Extensions
 with .ebextensions folder
@@ -1021,8 +1021,8 @@ with .ebextensions folder
 ## Beanstalk Lifecycle Policy
 Benstalk can store at most 1000 application versions\
 you can phase out older ones:
-+ based on time
-+ based on space
+- based on time
+- based on space
 
 ## Beanstalk Cloning
 clone environment with the exact same configuration\
@@ -1047,32 +1047,32 @@ we can decouple RDS:
 
 # CloudFormation
 All the manual work will be very tough to reproduce:
-+ In another region
-+ In another AWS account
-+ Within the same region if everything was deleted
+- In another region
+- In another AWS account
+- Within the same region if everything was deleted
 
 CloudFormation is infrastructure as code. Is a template for architecture
 
 ## Example:
-+ I want a security group
-+ I want two EC2 machines using this security group
-+ I want two Elastic IPs for these EC2 machines
-+ I want an S3 bucket
-+ I want a load balancer (ELB) in front of these machines
+- I want a security group
+- I want two EC2 machines using this security group
+- I want two Elastic IPs for these EC2 machines
+- I want an S3 bucket
+- I want a load balancer (ELB) in front of these machines
 
 ## Costs:
-+ Is easy to estimate the costs
-+ Saving strategy: In Dev, you could automation deletion of templates at 5 PM and recreated at 8 AM, safely
+- Is easy to estimate the costs
+- Saving strategy: In Dev, you could automation deletion of templates at 5 PM and recreated at 8 AM, safely
 
 ## Productivity:
-+ Ability to destroy and re-create an infrastructure on the fly
-+ Automated generation of Diagram for templates
-+ Declarative programming
+- Ability to destroy and re-create an infrastructure on the fly
+- Automated generation of Diagram for templates
+- Declarative programming
 
 ## Create many stacks for many apps:
-+ VPC stacks
-+ Network stacks
-+ App stacks
+- VPC stacks
+- Network stacks
+- App stacks
 
 Templates have to be uploaded in S3 and then referenced in CloudFormation. To update a template, we can't edit previous ones. We have to re-upload a new version of the template to AWS\
 
@@ -1095,8 +1095,8 @@ VPC ID and subnet IDs
 use to control the creation of resources or outputs based on a condition (Region, ...)
 
 ## CloudFormation Rollbacks
-+ Stack creation fails: everything rolls back, gets deleted
-+ Stack update fails: roolsback to previous known working state
+- Stack creation fails: everything rolls back, gets deleted
+- Stack update fails: roolsback to previous known working state
 
 ## CloudFormation Stack Notifications
 send Stack events to SNS topic
