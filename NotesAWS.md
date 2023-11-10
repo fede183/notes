@@ -294,3 +294,209 @@ Which service is used to manage the DNS records for domain names?
 
 Amazon Route 53
 
+# Storage and databases
+
+## Instance stores
+Block-level storage volumes behave like physical hard drives.
+
+An instance store(opens in a new tab) provides temporary block-level storage for an Amazon EC2 instance.
+
+## Amazon EBS
+Amazon Elastic Block Store (Amazon EBS)(opens in a new tab) is a service that provides block-level storage volumes that you can use with Amazon EC2 instances. If you stop or terminate an Amazon EC2 instance, all the data on the attached EBS volume remains available.
+
+An EBS snapshot(opens in a new tab) is an incremental backup. This means that the first backup taken of a volume copies all the data. For subsequent backups, only the blocks of data that have changed since the most recent snapshot are saved.
+
+## QA
+Which of the following are characteristics of the Amazon EBS service? (Select TWO.)
+
+Best for data that requires retention
+
+Physically attached to the host computer of an EC2 instance
+
+## Object storage
+
+In object storage, each object consists of data, metadata, and a key.
+
+## Amazon Simple Storage Service (Amazon S3)
+Amazon Simple Storage Service (Amazon S3)(opens in a new tab) is a service that provides object-level storage. Amazon S3 stores data as objects in buckets. You can upload any type of file to Amazon S3, such as images, videos, text files, and so on.
+
+## Amazon S3 storage classes
+With Amazon S3, you pay only for what you use. You can choose from a range of storage classes(opens in a new tab) to select a fit for your business and cost needs.
+
+### S3 Standard
+- Designed for frequently accessed data
+- Stores data in a minimum of three Availability Zones
+
+### S3 Standard-Infrequent Access (S3 Standard-IA)
+- Ideal for infrequently accessed data
+- Similar to Amazon S3 Standard but has a lower storage price and higher retrieval price
+
+### S3 One Zone-Infrequent Access (S3 One Zone-IA)
+- Stores data in a single Availability Zone
+- Has a lower storage price than Amazon S3 Standard-IA
+
+### S3 Intelligent-Tiering
+- Ideal for data with unknown or changing access patterns
+- Requires a small monthly monitoring and automation fee per object
+
+### S3 Glacier Instant Retrieval
+- Works well for archived data that requires immediate access
+- Can retrieve objects within a few milliseconds
+
+### S3 Glacier Flexible Retrieval
+- Low-cost storage designed for data archiving
+- Able to retrieve objects within a few minutes to hours
+
+### S3 Glacier Deep Archive
+- Lowest-cost object storage class ideal for archiving
+- Able to retrieve objects within 12 hours
+
+### S3 Outposts
+- Creates S3 buckets on Amazon S3 Outposts
+- Makes it easier to retrieve, store, and access data on AWS Outposts
+
+## Amazon Elastic File System
+Amazon Elastic File System (Amazon EFS)(opens in a new tab) is a scalable file system used with AWS Cloud services and on-premises resources. As you add and remove files, Amazon EFS grows and shrinks automatically. It can scale on demand to petabytes without disrupting applications.  Multiple AZ.
+
+## Amazon Relational Database Service
+Amazon Relational Database Service (Amazon RDS)(opens in a new tab) is a service that enables you to run relational databases in the AWS Cloud.
+
+Amazon RDS is a managed service that automates tasks such as hardware provisioning, database setup, patching, and backups.
+
+## Amazon Aurora
+Amazon Aurora(opens in a new tab) is an enterprise-class relational database. It is compatible with MySQL and PostgreSQL relational databases. It is up to five times faster than standard MySQL databases and up to three times faster than standard PostgreSQL databases.
+
+## Amazon DynamoDB
+Amazon DynamoDB(opens in a new tab) is a key-value database service. It delivers single-digit millisecond performance at any scale. Serverless and can autoscale.
+
+## Amazon Redshift
+Amazon Redshift(opens in a new tab) is a data warehousing service that you can use for big data analytics. It offers the ability to collect data from many sources and helps you to understand relationships and trends across your data.
+
+## AWS Database Migration Service (AWS DMS)
+AWS Database Migration Service (AWS DMS)(opens in a new tab) enables you to migrate relational databases, nonrelational databases, and other types of data stores.
+
+## Amazon DocumentDB
+Amazon DocumentDB(opens in a new tab) is a document database service that supports MongoDB workloads. (MongoDB is a document database program.)
+
+## Amazon Neptune
+Amazon Neptune(opens in a new tab) is a graph database service. 
+
+## Amazon Quantum Ledger Database (Amazon QLDB)
+Amazon Quantum Ledger Database (Amazon QLDB)(opens in a new tab) is a ledger database service. 
+
+## Amazon Managed Blockchain
+Amazon Managed Blockchain(opens in a new tab) is a service that you can use to create and manage blockchain networks with open-source frameworks. 
+
+## Amazon ElastiCache
+Amazon ElastiCache(opens in a new tab) is a service that adds caching layers on top of your databases to help improve the read times of common requests. 
+
+## Amazon DynamoDB Accelerator
+Amazon DynamoDB Accelerator (DAX)(opens in a new tab) is an in-memory cache for DynamoDB.
+
+## QA
+
+Which Amazon S3 storage classes are optimized for archival data? (Select TWO.)
+
+Amazon S3 Glacier Flexible Retrieval
+
+Amazon S3 Glacier Deep Archive
+
+Which statement or statements are TRUE about Amazon EBS volumes and Amazon EFS file systems?
+
+EBS volumes store data within a single Availability Zone. Amazon EFS file systems store data across multiple Availability Zones.
+
+You want to store data in an object storage service. Which AWS service is best for this type of storage?
+
+Amazon Simple Storage Service (Amazon S3)
+
+Which statement best describes Amazon DynamoDB?
+
+A serverless key-value database service
+
+Which service is used to query and analyze data across a data warehouse?
+
+Amazon Redshift
+
+# Security
+
+## The AWS shared responsibility model
+Throughout this course, you have learned about a variety of resources that you can create in the AWS Cloud. 
+
+## IAM users
+An IAM user is an identity that you create in AWS. It represents the person or application that interacts with AWS services and resources. It consists of a name and credentials.
+
+## IAM policies
+An IAM policy is a document that allows or denies permissions to AWS services and resources.  
+
+## IAM groups
+An IAM group is a collection of IAM users. When you assign an IAM policy to a group, all users in the group are granted permissions specified by the policy.
+
+## IAM roles
+In the coffee shop, an employee rotates to different workstations throughout the day.
+
+## AWS Organizations
+Suppose that your company has multiple AWS accounts. You can use AWS Organizations(opens in a new tab) to consolidate and manage multiple AWS accounts within a central location.
+
+## Organizational units
+In AWS Organizations, you can group accounts into organizational units (OUs) to make it easier to manage accounts with similar business or security requirements.
+
+### QA
+
+You are configuring service control policies (SCPs) in AWS Organizations. Which identities and resources can SCPs be applied to? (Select TWO.)
+
+An individual member account
+
+An organizational unit (OU)
+
+## AWS Artifact
+Depending on your company’s industry, you may need to uphold specific standards. An audit or inspection will ensure that the company has met those standards.
+
+Suppose that your company needs to sign an agreement with AWS regarding your use of certain types of information throughout AWS services. You can do this through AWS Artifact Agreements. 
+ 
+Next, suppose that a member of your company’s development team is building an application and needs more information about their responsibility for complying with certain regulatory standards. You can advise them to access this information in AWS Artifact Reports.
+
+## Customer Compliance Center
+The Customer Compliance Center(opens in a new tab) contains resources to help you learn more about AWS compliance. 
+
+## AWS Shield
+AWS Shield is a service that protects applications against DDoS attacks. AWS Shield provides two levels of protection: Standard and Advanced.
+
+### AWS Shield Standard
+AWS Shield Standard automatically protects all AWS customers at no cost. It protects your AWS resources from the most common, frequently occurring types of DDoS attacks. 
+
+### AWS Shield Advanced
+AWS Shield Advanced is a paid service that provides detailed attack diagnostics and the ability to detect and mitigate sophisticated DDoS attacks.
+
+## AWS Key Management Service (AWS KMS)
+The coffee shop has many items, such as coffee machines, pastries, money in the cash registers, and so on. You can think of these items as data.
+
+## AWS WAF
+AWS WAF(opens in a new tab) is a web application firewall that lets you monitor network requests that come into your web applications.
+
+## Amazon Inspector
+Suppose that the developers at the coffee shop are developing and testing a new ordering application. They want to make sure that they are designing the application in accordance with security best practices. 
+
+## Amazon GuardDuty
+Amazon GuardDuty(opens in a new tab) is a service that provides intelligent threat detection for your AWS infrastructure and resources. It identifies threats by continuously monitoring the network activity and account behavior within your AWS environment.
+
+## QA
+
+Which statement best describes an IAM policy?
+
+A document that grants or denies permissions to AWS services and resources
+
+An employee requires temporary access to create several Amazon S3 buckets. Which option would be the best choice for this task?
+
+IAM role
+
+Which statement best describes the principle of least privilege?
+
+Granting only the permissions that are needed to perform specific tasks
+
+Which service helps protect your applications against distributed denial-of-service (DDoS) attacks?
+
+AWS Shield
+
+Which task can AWS Key Management Service (AWS KMS) perform?
+
+Create cryptographic keys.
