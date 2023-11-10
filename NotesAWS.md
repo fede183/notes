@@ -180,4 +180,117 @@ You want to deploy and manage containerized applications. Which service should y
 
 Amazon Elastic Kubernetes Service (Amazon EKS)
 
+# Compute in the cloud
+
+## Region
+- Compliance with data governance and legal requirements
+- Proximity to your customers
+- Available services within a region
+- Pricing
+
+## Availability Zones
+Is a single data center or a group of data centers within a Region. A Region has three or more AZ.
+
+## Edge locations
+An edge location is a site that Amazon CloudFront uses to store cached copies of your content closer to your customers for faster delivery.
+
+ ## AWS management console
+The AWS Management Console is a web-based interface for accessing and managing AWS services.
+
+## AWS command line interface
+To save time when making API requests, you can use the AWS Command Line Interface (AWS CLI). 
+
+## SDK
+Another option for accessing and managing AWS services is the software development kits (SDKs).
+
+## AWS Elastic Beanstalk
+With AWS Elastic Beanstalk, you provide code and configuration settings, and Elastic Beanstalk deploys the resources necessary to perform the following tasks:
+
+- Adjust capacity
+- Load balancing
+- Automatic scaling
+- Application health monitoring
+
+## AWS CloudFormation
+With AWS CloudFormation, you can treat your infrastructure as code. This means that you can build an environment by writing lines of code instead of using the AWS Management Console to individually provision resources.
+
+
+## AWS Outposts
+Extend AWS infrastructure and services to different locations including your on-premises data center.
+
+# Networking
+
+## Amazon Virtual Private Cloud (Amazon VPC)
+Imagine the millions of customers who use AWS services. Also, imagine the millions of resources that these customers have created, such as Amazon EC2 instances. Without boundaries around all of these resources, network traffic would be able to flow between them unrestricted.
+
+A subnet is a section of a VPC that can contain resources such as Amazon EC2 instances.
+
+## Internet gateway
+To allow public traffic from the internet to access your VPC, you attach an internet gateway to the VPC.
+
+## Virtual private gateway
+To access private resources in a VPC, you can use a virtual private gateway.
+
+## AWS Direct Connect
+AWS Direct Connect(opens in a new tab) is a service that lets you to establish a dedicated private connection between your data center and a VPC.
+
+## Subnets
+A subnet is a section of a VPC in which you can group resources based on security or operational needs. Subnets can be public or private.
+
+Public subnets contain resources that need to be accessible by the public, such as an online store’s website.
+
+Private subnets contain resources that should be accessible only through your private network, such as a database that contains customers’ personal information and order histories.
+
+## Network ACLs
+A network ACL is a virtual firewall that controls inbound and outbound traffic at the subnet level.
+
+## Stateless packet filtering
+Network ACLs perform stateless packet filtering. They remember nothing and check packets that cross the subnet border each way: inbound and outbound.
+
+## Security groups
+A security group is a virtual firewall that controls inbound and outbound traffic for an Amazon EC2 instance.
+
+## Stateful packet filtering
+Security groups perform stateful packet filtering. They remember previous decisions made for incoming packets.
+
+## VPC component recall
+Recall the purpose of the following four VPC components. Compare your response by choosing each VPC component flashcard.
+
+## QA
+
+Which statement best describes an AWS account’s default network access control list?
+
+It is stateless and allows all inbound and outbound traffic.
+
+## Domain Name System (DNS)
+Suppose that AnyCompany has a website hosted in the AWS Cloud. Customers enter the web address into their browser, and they are able to access the website.
+
+## Amazon Route 53
+Amazon Route 53(opens in a new tab) is a DNS web service. It gives developers and businesses a reliable way to route end users to internet applications hosted in AWS.
+
+## QA
+
+Which statement best describes DNS resolution?
+
+Translating a domain name to an IP address
+
+Your company has an application that uses Amazon EC2 instances to run the customer-facing website and Amazon RDS database instances to store customers’ personal information. How should the developer configure the VPC according to best practices?
+
+Place the Amazon EC2 instances in a public subnet and the Amazon RDS database instances in a private subnet.
+
+Which component can be used to establish a private dedicated connection between your company’s data center and AWS?
+
+AWS Direct Connect
+
+Which statement best describes security groups?
+
+They are stateful and deny all inbound traffic by default.
+
+Which component is used to connect a VPC to the internet?
+
+Internet gateway
+
+Which service is used to manage the DNS records for domain names?
+
+Amazon Route 53
 
