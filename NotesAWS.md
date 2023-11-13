@@ -500,3 +500,192 @@ AWS Shield
 Which task can AWS Key Management Service (AWS KMS) perform?
 
 Create cryptographic keys.
+
+# Monitoring And Analytics
+
+## Amazon CloudWatch
+Amazon CloudWatch(opens in a new tab) is a web service that enables you to monitor and manage various metrics and configure alarm actions based on data from those metrics.
+
+## CloudWatch alarms
+With CloudWatch, you can create alarms(opens in a new tab) that automatically perform actions if the value of your metric has gone above or below a predefined threshold.
+
+## CloudWatch dashboard
+The CloudWatch dashboard(opens in a new tab) feature enables you to access all the metrics for your resources from a single location.
+
+## AWS CloudTrail
+AWS CloudTrail(opens in a new tab) records API calls for your account. The recorded information includes the identity of the API caller, the time of the API call, the source IP address of the API caller, and more. You can think of CloudTrail as a “trail” of breadcrumbs (or a log of actions) that someone has left behind them.
+
+## CloudTrail Insights
+Within CloudTrail, you can also enable CloudTrail Insights(opens in a new tab). This optional feature allows CloudTrail to automatically detect unusual API activities in your AWS account. 
+
+### QA
+
+Which tasks can you perform using AWS CloudTrail? (Select TWO.)
+
+Track user activities and API requests throughout your AWS infrastructure
+
+View metrics and graphs to monitor the performance of resources
+
+## AWS Trusted Advisor
+AWS Trusted Advisor(opens in a new tab) is a web service that inspects your AWS environment and provides real-time recommendations in accordance with AWS best practices.
+
+## AWS Trusted Advisor dashboard
+When you access the Trusted Advisor dashboard on the AWS Management Console, you can review completed checks for cost optimization, performance, security, fault tolerance, and service limits.
+
+## QA
+
+Which actions can you perform using Amazon CloudWatch? (Select TWO.)
+
+Monitor your resources’ utilization and performance
+
+Receive real-time guidance for improving your AWS environment
+
+Which service enables you to review the security of your Amazon S3 buckets by checking for open access permissions?
+
+AWS Trusted Advisor
+
+Which categories are included in the AWS Trusted Advisor dashboard? (Select TWO.)
+
+Performance
+
+Fault tolerance
+
+# Pricing
+
+## AWS Free Tier
+The AWS Free Tier(opens in a new tab) enables you to begin using certain services without having to worry about incurring costs for the specified period. 
+
+Three types of offers are available: 
+- Always Free
+- 12 Months Free
+- Trials
+
+## How pricing works
+- Pay for what you useay
+- Pay less when you reserve
+- Pay less with volume-based discounts when you use more
+
+## AWS Pricing Calculator
+The AWS Pricing Calculator(opens in a new tab) lets you explore AWS services and create an estimate for the cost of your use cases on AWS. 
+
+Use the AWS Billing & Cost Management dashboard(opens in a new tab) to pay your AWS bill, monitor your usage, and analyze and control your costs.
+
+## Consolidated billing
+In an earlier module, you learned about AWS Organizations, a service that enables you to manage multiple AWS accounts from a central location. AWS Organizations also provides the option for consolidated billing(opens in a new tab).
+
+## AWS Budgets
+In AWS Budgets(opens in a new tab), you can create budgets to plan your service usage, service costs, and instance reservations.
+
+## WS Cost Explorer
+AWS Cost Explorer(opens in a new tab) is a tool that lets you visualize, understand, and manage your AWS costs and usage over time.
+
+## AWS Support
+AWS offers four different Support plans(opens in a new tab) to help you troubleshoot issues, lower costs, and efficiently use AWS services.
+
+- Basic Support
+- Developer
+    - Best practice guidance
+    - Client-side diagnostic tools
+    - Building-block architecture support, which consists of guidance for how to use AWS offerings, features, and services together
+- Business
+    - Use-case guidance to identify AWS offerings, features, and services that can best support your specific needs
+    - All AWS Trusted Advisor checks
+    - Limited support for third-party software, such as common operating systems and application stack components
+- Enterprise On-Ramp
+    - A pool of Technical Account Managers to provide proactive guidance and coordinate access to programs and AWS experts
+    - A Cost Optimization workshop (one per year)
+    - A Concierge support team for billing and account assistance
+    - Tools to monitor costs and performance through Trusted Advisor and Health API/Dashboard
+- Enterprise Support
+	- A designated Technical Account Manager to provide proactive guidance and coordinate access to programs and AWS experts
+	- A Concierge support team for billing and account assistance
+	- Operations Reviews and tools to monitor health
+	- Training and Game Days to drive innovation
+	- Tools to monitor costs and performance through Trusted Advisor and Health API/Dashboard
+
+## Technical Account Manager (TAM)
+The Enterprise On-Ramp and Enterprise Support plans include access to a Technical Account Manager (TAM).
+
+## AWS Marketplace
+AWS Marketplace(opens in a new tab) is a digital catalog that includes thousands of software listings from independent software vendors. You can use AWS Marketplace to find, test, and buy software that runs on AWS.
+
+## QA
+
+Which action can you perform with consolidated billing?
+
+Combine usage across accounts to receive volume pricing discounts.
+
+Which pricing tool is used to visualize, understand, and manage your AWS costs and usage over time?
+
+AWS Cost Explorer
+
+Which pricing tool enables you to receive alerts when your service usage exceeds a threshold that you have defined?
+
+AWS Budgets
+
+Your company wants to receive support from an AWS Technical Account Manager (TAM). Which support plan should you choose?
+
+Enterprise
+
+Which service or resource is used to find third-party software that runs on AWS?
+
+AWS Marketplace
+
+# Migration and Innovation
+
+## Six core perspectives of the Cloud Adoption Framework
+At the highest level, the AWS Cloud Adoption Framework (AWS CAF)(opens in a new tab) organizes guidance into six areas of focus, called Perspectives. Each Perspective addresses distinct responsibilities. The planning process helps the right people across the organization prepare for the changes ahead.
+
+## Business Perspective
+The Business Perspective ensures that IT aligns with business needs and that IT investments link to key business results.
+
+## People Perspective
+The People Perspective supports development of an organization-wide change management strategy for successful cloud adoption.
+
+## Governance Perspective
+The Governance Perspective focuses on the skills and processes to align IT strategy with business strategy. This ensures that you maximize the business value and minimize risks.
+
+## Platform Perspective
+The Platform Perspective includes principles and patterns for implementing new solutions on the cloud, and migrating on-premises workloads to the cloud.
+
+## Security Perspective
+The Security Perspective ensures that the organization meets security objectives for visibility, auditability, control, and agility. 
+
+## Operations Perspective
+The Operations Perspective helps you to enable, run, use, operate, and recover IT workloads to the level agreed upon with your business stakeholders.
+
+### QA
+
+Which Perspective of the AWS Cloud Adoption Framework helps you design, implement, and optimize your AWS infrastructure based on your business goals and perspectives?
+
+Platform Perspective
+
+## 6 strategies for migration
+When migrating applications to the cloud, six of the most common migration strategies(opens in a new tab) that you can implement are:
+
+- Rehosting: also known as “lift-and-shift” involves moving applications without changes.
+- Replatforming: also known as “lift, tinker, and shift,” involves making a few cloud optimizations to realize a tangible benefit.
+- Refactoring/re-architecting: involves reimagining how an application is architected and developed by using cloud-native features.
+- Repurchasing: involves moving from a traditional license to a software-as-a-service model
+- Retaining: consists of keeping applications that are critical for the business in the source environment.
+- Retiring: is the process of removing applications that are no longer needed.
+
+## AWS Snow Family members
+The AWS Snow Family(opens in a new tab) is a collection of physical devices that help to physically transport up to exabytes of data into and out of AWS. 
+
+- AWS Snowcone(opens in a new tab) is a small, rugged, and secure edge computing and data transfer device.
+- Snowball Edge Storage Optimized devices are well suited for large-scale data migrations and recurring transfer workflows, in addition to local computing with higher capacity needs. 
+- Snowball Edge Compute Optimized provides powerful computing resources for use cases such as machine learning, full motion video analysis, analytics, and local computing stacks. 
+- AWS Snowmobile(opens in a new tab) is an exabyte-scale data transfer service used to move large amounts of data to AWS. 
+
+## IA
+For example, you can perform the following tasks:
+- Convert speech to text with Amazon Transcribe.
+- Discover patterns in text with Amazon Comprehend.
+- Identify potentially fraudulent online activities with Amazon Fraud Detector.
+- Build voice and text chatbots with Amazon Lex.
+
+## Machine learning
+Traditional machine learning (ML) development is complex, expensive, time consuming, and error prone. AWS offers Amazon SageMaker to remove the difficult work from the process and empower you to build, train, and deploy ML models quickly.
+
+
