@@ -1,4 +1,4 @@
-# Ryu Game Plan Street Fighter 5
+# Ryu Game Plan Street Fighter 6
 
 ## Alias
 - ST: Standing
@@ -10,6 +10,7 @@
 - {H-M-L}DP: High-Medium-Low Antiair
 - {H-M-L}Tatsu: High-Medium-Low Tatsu
 - {H-M-L}Donkey: High-Medium-Low Donkey Kick
+- {H-M-L}Hash: High-Medium-Low Hashogeki
  
 ## Antiair
 - CRHP
@@ -21,40 +22,29 @@
 - JMP\>AirTatsu
 
 ## Pocke
+- CRLPx2
+- CRLKx2
 - CRMK
 - CRMP
+- STHP
 - STMK
 
 ## Casual
 - CRMK | CRMP
     - If connects? MFireball | MTatsu | MDonkey
-    - If blocked? MFireball | EX-Fireball
-- STMP\>CRMP\>Fireball
+    - If blocked? MFireball| MHash | EX-Fireball
 
 ## Punishing Combos
 - STMP\>STHP\>STHK
-- STHK\>STHK\>STLK\>MTatsu
-- STMP\>STMP\>MDonkey
+- STMP\>CRMP\>MFireball
 - STMP\>CRMP\>EX-Fireball
 - STMP\>CRMP\>EX-Donkey\>HDP
 
 ## Jumps Confirm by default
 - JHK/JHP\>STMP\>CRMP
     - If connects? HDonkey.
-    - If blocked? MFireball.
+    - If Blocked? LFireball.
 - JHK/JHP\>CRMK\>MTatsu
-
-## V-Skill1
-- Use it to parry projectiles
-
-## V-Skill2
-- Use it to parry high attacks
-- STMP\>STHP\>STHK\>V-Skill2
-
-## V-Trigger1
-- EX fireball\>V-Trigger1 Cancel\>Dash
-    - If EX Fireball hits? HDP
-- CRHK\>V-Trigger1 Cancel
 
 ## Defending to blocking jump attack
 - CRBlock+Grab
