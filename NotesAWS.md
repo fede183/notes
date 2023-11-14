@@ -36,17 +36,6 @@ The flexibility of cloud computing makes it easier for you to develop and deploy
 
 The global footprint of the AWS Cloud enables you to deploy applications to customers around the world quickly, while providing them with low latency. This means that even if you are located in a different part of the world than your customers, customers are able to access your applications with minimal delays.
 
-## QA
-
-What is cloud computing?
-On-demand delivery of IT resources and applications through the internet with pay-as-you-go pricing.
-
-What is another name for on-premises deployment?
-Private cloud deployment.
-
-How does the scale of cloud computing help you to save costs?
-The aggregated cloud usage from a large number of customers results in lower pay-as-you-go prices.
-
 # EC2
 
 Provides secure, resizable compute capacity in the cloud as Amazon EC2 instances.
@@ -57,19 +46,6 @@ Provides secure, resizable compute capacity in the cloud as Amazon EC2 instances
 - Memory optimized instances
 - Accelerated computing instances. Examples of these functions include floating-point number calculations, graphics processing, and data pattern matching.
 - Storage optimized instances
-
-### QA
-Which Amazon EC2 instance type is suitable for data warehousing applications?
-Storage optimized
-
-Which Amazon EC2 instance type balances compute, memory, and networking resources?
-General purpose
-
-Which Amazon EC2 instance type is ideal for high-performance databases?
-Memory optimized
-
-Which Amazon EC2 instance type offers high-performance processors?
-Compute optimized
 
 ## Pricing:
 EC2 on demand
@@ -101,15 +77,6 @@ EC2 dedicated instance
 EC2 capacity reservations
 - no discount, get access on demand when you need it
 
-### QA
-Which Amazon EC2 pricing option provides a discount when you specify a number of EC2 instances to run a specific OS, instance family and size, and tenancy in one Region?
-
-Standard Reserved Instances
-
-Which Amazon EC2 pricing option provides a discount when you make an hourly spend commitment to an instance family and Region for a 1-year or 3-year term?
-
-EC2 Instance Savings Plans
-
 # Auto Scaling EC2
 Enables you to automatically add or remove Amazon EC2 instances in response to changing application demand. By automatically scaling your instances in and out as needed, you can maintain a greater sense of application availability.
 
@@ -130,10 +97,6 @@ Amazon Simple Notification Service (Amazon SNS) is a publish/subscribe service. 
 Amazon Simple Queue Service (Amazon SQS) is a message queuing service.
 
 Using Amazon SQS, you can send, store, and receive messages between software components, without losing messages or requiring other services to be available. In Amazon SQS, an application sends messages into a queue. A user or service retrieves a message from the queue, processes it, and then deletes it from the queue.
-
-### QA
-
-Which AWS service is the best choice for publishing messages to subscribers?
 
 # Serverless computing
 The term serverless means that your code runs on servers, but you do not need to provision or manage these servers.
@@ -156,30 +119,6 @@ Amazon Elastic Kubernetes Service (Amazon EKS)(opens in a new tab) is a fully ma
 AWS Fargate(opens in a new tab) is a serverless compute engine for containers. It works with both Amazon ECS and Amazon EKS.
 
 When using AWS Fargate, you do not need to provision or manage servers. AWS Fargate manages your server infrastructure for you. You can focus more on innovating and developing your applications, and you pay only for the resources that are required to run your containers.
-
-### QA
-
-You want to use an Amazon EC2 instance for a batch processing workload. What would be the best Amazon EC2 instance type to use?
-
-Compute optimized
-
-What are the contract length options for Amazon EC2 Reserved Instances? (Select TWO.)
-
-1 year
-
-3 years
-
-You have a workload that will run for a total of 6 months and can withstand interruptions. What would be the most cost-efficient Amazon EC2 purchasing option?
-
-Spot Instance
-
-Which process is an example of Elastic Load Balancing?
-
-Ensuring that no single Amazon EC2 instance has to carry the full workload on its own
-
-You want to deploy and manage containerized applications. Which service should you use?
-
-Amazon Elastic Kubernetes Service (Amazon EKS)
 
 # Compute in the cloud
 
@@ -257,43 +196,11 @@ Security groups perform stateful packet filtering. They remember previous decisi
 ## VPC component recall
 Recall the purpose of the following four VPC components. Compare your response by choosing each VPC component flashcard.
 
-## QA
-
-Which statement best describes an AWS accounts default network access control list?
-
-It is stateless and allows all inbound and outbound traffic.
-
 ## Domain Name System (DNS)
 Suppose that AnyCompany has a website hosted in the AWS Cloud. Customers enter the web address into their browser, and they are able to access the website.
 
 ## Amazon Route 53
 Amazon Route 53(opens in a new tab) is a DNS web service. It gives developers and businesses a reliable way to route end users to internet applications hosted in AWS.
-
-## QA
-
-Which statement best describes DNS resolution?
-
-Translating a domain name to an IP address
-
-Your company has an application that uses Amazon EC2 instances to run the customer-facing website and Amazon RDS database instances to store customers personal information. How should the developer configure the VPC according to best practices?
-
-Place the Amazon EC2 instances in a public subnet and the Amazon RDS database instances in a private subnet.
-
-Which component can be used to establish a private dedicated connection between your companys data center and AWS?
-
-AWS Direct Connect
-
-Which statement best describes security groups?
-
-They are stateful and deny all inbound traffic by default.
-
-Which component is used to connect a VPC to the internet?
-
-Internet gateway
-
-Which service is used to manage the DNS records for domain names?
-
-Amazon Route 53
 
 # Storage and databases
 
@@ -306,13 +213,6 @@ An instance store(opens in a new tab) provides temporary block-level storage for
 Amazon Elastic Block Store (Amazon EBS)(opens in a new tab) is a service that provides block-level storage volumes that you can use with Amazon EC2 instances. If you stop or terminate an Amazon EC2 instance, all the data on the attached EBS volume remains available.
 
 An EBS snapshot(opens in a new tab) is an incremental backup. This means that the first backup taken of a volume copies all the data. For subsequent backups, only the blocks of data that have changed since the most recent snapshot are saved.
-
-## QA
-Which of the following are characteristics of the Amazon EBS service? (Select TWO.)
-
-Best for data that requires retention
-
-Physically attached to the host computer of an EC2 instance
 
 ## Object storage
 
@@ -394,30 +294,6 @@ Amazon ElastiCache(opens in a new tab) is a service that adds caching layers on 
 ## Amazon DynamoDB Accelerator
 Amazon DynamoDB Accelerator (DAX)(opens in a new tab) is an in-memory cache for DynamoDB.
 
-## QA
-
-Which Amazon S3 storage classes are optimized for archival data? (Select TWO.)
-
-Amazon S3 Glacier Flexible Retrieval
-
-Amazon S3 Glacier Deep Archive
-
-Which statement or statements are TRUE about Amazon EBS volumes and Amazon EFS file systems?
-
-EBS volumes store data within a single Availability Zone. Amazon EFS file systems store data across multiple Availability Zones.
-
-You want to store data in an object storage service. Which AWS service is best for this type of storage?
-
-Amazon Simple Storage Service (Amazon S3)
-
-Which statement best describes Amazon DynamoDB?
-
-A serverless key-value database service
-
-Which service is used to query and analyze data across a data warehouse?
-
-Amazon Redshift
-
 # Security
 
 ## The AWS shared responsibility model
@@ -440,14 +316,6 @@ Suppose that your company has multiple AWS accounts. You can use AWS Organizatio
 
 ## Organizational units
 In AWS Organizations, you can group accounts into organizational units (OUs) to make it easier to manage accounts with similar business or security requirements.
-
-### QA
-
-You are configuring service control policies (SCPs) in AWS Organizations. Which identities and resources can SCPs be applied to? (Select TWO.)
-
-An individual member account
-
-An organizational unit (OU)
 
 ## AWS Artifact
 Depending on your companys industry, you may need to uphold specific standards. An audit or inspection will ensure that the company has met those standards.
@@ -480,28 +348,6 @@ Suppose that the developers at the coffee shop are developing and testing a new 
 ## Amazon GuardDuty
 Amazon GuardDuty(opens in a new tab) is a service that provides intelligent threat detection for your AWS infrastructure and resources. It identifies threats by continuously monitoring the network activity and account behavior within your AWS environment.
 
-## QA
-
-Which statement best describes an IAM policy?
-
-A document that grants or denies permissions to AWS services and resources
-
-An employee requires temporary access to create several Amazon S3 buckets. Which option would be the best choice for this task?
-
-IAM role
-
-Which statement best describes the principle of least privilege?
-
-Granting only the permissions that are needed to perform specific tasks
-
-Which service helps protect your applications against distributed denial-of-service (DDoS) attacks?
-
-AWS Shield
-
-Which task can AWS Key Management Service (AWS KMS) perform?
-
-Create cryptographic keys.
-
 # Monitoring And Analytics
 
 ## Amazon CloudWatch
@@ -519,37 +365,11 @@ AWS CloudTrail(opens in a new tab) records API calls for your account. The recor
 ## CloudTrail Insights
 Within CloudTrail, you can also enable CloudTrail Insights(opens in a new tab). This optional feature allows CloudTrail to automatically detect unusual API activities in your AWS account.
 
-### QA
-
-Which tasks can you perform using AWS CloudTrail? (Select TWO.)
-
-Track user activities and API requests throughout your AWS infrastructure
-
-View metrics and graphs to monitor the performance of resources
-
 ## AWS Trusted Advisor
 AWS Trusted Advisor(opens in a new tab) is a web service that inspects your AWS environment and provides real-time recommendations in accordance with AWS best practices.
 
 ## AWS Trusted Advisor dashboard
 When you access the Trusted Advisor dashboard on the AWS Management Console, you can review completed checks for cost optimization, performance, security, fault tolerance, and service limits.
-
-## QA
-
-Which actions can you perform using Amazon CloudWatch? (Select TWO.)
-
-Monitor your resources utilization and performance
-
-Receive real-time guidance for improving your AWS environment
-
-Which service enables you to review the security of your Amazon S3 buckets by checking for open access permissions?
-
-AWS Trusted Advisor
-
-Which categories are included in the AWS Trusted Advisor dashboard? (Select TWO.)
-
-Performance
-
-Fault tolerance
 
 # Pricing
 
@@ -610,28 +430,6 @@ The Enterprise On-Ramp and Enterprise Support plans include access to a Technica
 ## AWS Marketplace
 AWS Marketplace(opens in a new tab) is a digital catalog that includes thousands of software listings from independent software vendors. You can use AWS Marketplace to find, test, and buy software that runs on AWS.
 
-## QA
-
-Which action can you perform with consolidated billing?
-
-Combine usage across accounts to receive volume pricing discounts.
-
-Which pricing tool is used to visualize, understand, and manage your AWS costs and usage over time?
-
-AWS Cost Explorer
-
-Which pricing tool enables you to receive alerts when your service usage exceeds a threshold that you have defined?
-
-AWS Budgets
-
-Your company wants to receive support from an AWS Technical Account Manager (TAM). Which support plan should you choose?
-
-Enterprise
-
-Which service or resource is used to find third-party software that runs on AWS?
-
-AWS Marketplace
-
 # Migration and Innovation
 
 ## Six core perspectives of the Cloud Adoption Framework
@@ -654,11 +452,6 @@ The Security Perspective ensures that the organization meets security objectives
 
 ## Operations Perspective
 The Operations Perspective helps you to enable, run, use, operate, and recover IT workloads to the level agreed upon with your business stakeholders.
-
-### QA
-Which Perspective of the AWS Cloud Adoption Framework helps you design, implement, and optimize your AWS infrastructure based on your business goals and perspectives?
-
-Platform Perspective
 
 ## 6 strategies for migration
 When migrating applications to the cloud, six of the most common migration strategies(opens in a new tab) that you can implement are:
@@ -688,26 +481,6 @@ For example, you can perform the following tasks:
 ## Machine learning
 Traditional machine learning (ML) development is complex, expensive, time consuming, and error prone. AWS offers Amazon SageMaker to remove the difficult work from the process and empower you to build, train, and deploy ML models quickly.
 
-## QA
-
-Which Perspective of the AWS Cloud Adoption Framework helps you structure the selection and implementation of permissions?
-
-Security Perspective
-
-Which strategies are included in the six strategies for application migration? (Select TWO.)
-
-Retaining
-
-Rehosting
-
-What is the storage capacity of AWS Snowmobile?
-
-100 PB
-
-Which statement best describes Amazon Lex?
-
-A service that enables you to build conversational interfaces using voice and text
-
 # The Cloud Journey
 
 ## The AWS Well-Architected Framework
@@ -734,13 +507,7 @@ Cost optimization is the ability to run systems to deliver business value at the
 ### Sustainability
 Sustainability is the ability to continually improve sustainability impacts by reducing energy consumption and increasing efficiency across all components of a workload by maximizing the benefits from the provisioned resources and minimizing the total resources required.
 
-### QA
-Which pillar of the AWS Well-Architected Framework focuses on the ability of a workload to consistently and correctly perform its intended functions?
-
-Reliability
-
 ## Advantages of cloud computing
-
 - Trade upfront expense for variable expense.
 - Benefit from massive economies of scale.
 - Stop guessing capacity.
@@ -748,13 +515,209 @@ Reliability
 - Stop spending money running and maintaining data centers.
 - Go global in minutes.
 
-### QA
+# QA
+
+Which Amazon EC2 instance type is suitable for data warehousing applications?
+
+Storage optimized
+
+Which Amazon EC2 instance type balances compute, memory, and networking resources?
+
+General purpose
+
+Which Amazon EC2 instance type is ideal for high-performance databases?
+
+Memory optimized
+
+Which Amazon EC2 instance type offers high-performance processors?
+
+Compute optimized
+
+Which Amazon EC2 pricing option provides a discount when you specify a number of EC2 instances to run a specific OS, instance family and size, and tenancy in one Region?
+
+Standard Reserved Instances
+
+Which Amazon EC2 pricing option provides a discount when you make an hourly spend commitment to an instance family and Region for a 1-year or 3-year term?
+
+EC2 Instance Savings Plans
+
+Which AWS service is the best choice for publishing messages to subscribers?
+
+You want to use an Amazon EC2 instance for a batch processing workload. What would be the best Amazon EC2 instance type to use?
+
+Compute optimized
+
+What are the contract length options for Amazon EC2 Reserved Instances? (Select TWO.)
+
+1 year
+
+3 years
+
+You have a workload that will run for a total of 6 months and can withstand interruptions. What would be the most cost-efficient Amazon EC2 purchasing option?
+
+Spot Instance
+
+Which process is an example of Elastic Load Balancing?
+
+Ensuring that no single Amazon EC2 instance has to carry the full workload on its own
+
+You want to deploy and manage containerized applications. Which service should you use?
+
+Amazon Elastic Kubernetes Service (Amazon EKS)
+
+Which statement best describes an AWS accounts default network access control list?
+
+It is stateless and allows all inbound and outbound traffic.
+
+Which statement best describes DNS resolution?
+
+Translating a domain name to an IP address
+
+Your company has an application that uses Amazon EC2 instances to run the customer-facing website and Amazon RDS database instances to store customers personal information. How should the developer configure the VPC according to best practices?
+
+Place the Amazon EC2 instances in a public subnet and the Amazon RDS database instances in a private subnet.
+
+Which component can be used to establish a private dedicated connection between your companys data center and AWS?
+
+AWS Direct Connect
+
+Which statement best describes security groups?
+
+They are stateful and deny all inbound traffic by default.
+
+Which component is used to connect a VPC to the internet?
+
+Internet gateway
+
+Which service is used to manage the DNS records for domain names?
+
+Amazon Route 53
+
+Which of the following are characteristics of the Amazon EBS service? (Select TWO.)
+
+Best for data that requires retention
+
+Physically attached to the host computer of an EC2 instance
+
+Which Amazon S3 storage classes are optimized for archival data? (Select TWO.)
+
+Amazon S3 Glacier Flexible Retrieval
+
+Amazon S3 Glacier Deep Archive
+
+Which statement or statements are TRUE about Amazon EBS volumes and Amazon EFS file systems?
+
+EBS volumes store data within a single Availability Zone. Amazon EFS file systems store data across multiple Availability Zones.
+
+You want to store data in an object storage service. Which AWS service is best for this type of storage?
+
+Amazon Simple Storage Service (Amazon S3)
+
+Which statement best describes Amazon DynamoDB?
+
+A serverless key-value database service
+
+Which service is used to query and analyze data across a data warehouse?
+
+Amazon Redshift
+
+You are configuring service control policies (SCPs) in AWS Organizations. Which identities and resources can SCPs be applied to? (Select TWO.)
+
+An individual member account
+
+An organizational unit (OU)
+
+Which statement best describes an IAM policy?
+
+A document that grants or denies permissions to AWS services and resources
+
+An employee requires temporary access to create several Amazon S3 buckets. Which option would be the best choice for this task?
+
+IAM role
+
+Which statement best describes the principle of least privilege?
+
+Granting only the permissions that are needed to perform specific tasks
+
+Which service helps protect your applications against distributed denial-of-service (DDoS) attacks?
+
+AWS Shield
+
+Which task can AWS Key Management Service (AWS KMS) perform?
+
+Create cryptographic keys.
+
+Which tasks can you perform using AWS CloudTrail? (Select TWO.)
+
+Track user activities and API requests throughout your AWS infrastructure
+
+View metrics and graphs to monitor the performance of resources
+
+Which actions can you perform using Amazon CloudWatch? (Select TWO.)
+
+Monitor your resources utilization and performance
+
+Receive real-time guidance for improving your AWS environment
+
+Which service enables you to review the security of your Amazon S3 buckets by checking for open access permissions?
+
+AWS Trusted Advisor
+
+Which categories are included in the AWS Trusted Advisor dashboard? (Select TWO.)
+
+Performance
+
+Fault tolerance
+
+Which action can you perform with consolidated billing?
+
+Combine usage across accounts to receive volume pricing discounts.
+
+Which pricing tool is used to visualize, understand, and manage your AWS costs and usage over time?
+
+AWS Cost Explorer
+
+Which pricing tool enables you to receive alerts when your service usage exceeds a threshold that you have defined?
+
+AWS Budgets
+
+Your company wants to receive support from an AWS Technical Account Manager (TAM). Which support plan should you choose?
+
+Enterprise
+
+Which service or resource is used to find third-party software that runs on AWS?
+
+AWS Marketplace
+
+Which Perspective of the AWS Cloud Adoption Framework helps you design, implement, and optimize your AWS infrastructure based on your business goals and perspectives?
+
+Platform Perspective
+
+Which Perspective of the AWS Cloud Adoption Framework helps you structure the selection and implementation of permissions?
+
+Security Perspective
+
+Which strategies are included in the six strategies for application migration? (Select TWO.)
+
+Retaining
+
+Rehosting
+
+What is the storage capacity of AWS Snowmobile?
+
+100 PB
+
+Which statement best describes Amazon Lex?
+
+A service that enables you to build conversational interfaces using voice and text
+
+Which pillar of the AWS Well-Architected Framework focuses on the ability of a workload to consistently and correctly perform its intended functions?
+
+Reliability
 
 Which process is an example of benefiting from massive economies of scale?
 
 Receiving lower pay-as-you-go prices as the result of AWS customers aggregated usage of services
-
-## QA
 
 Which pillar of the AWS Well-Architected Framework includes the ability to run workloads effectively and gain insights into their operations?
 
@@ -765,3 +728,16 @@ What are the benefits of cloud computing? (Select TWO.)
 Increase speed and agility.
 
 Stop spending money running and maintaining data centers
+
+What is cloud computing?
+
+On-demand delivery of IT resources and applications through the internet with pay-as-you-go pricing.
+
+What is another name for on-premises deployment?
+
+Private cloud deployment.
+
+How does the scale of cloud computing help you to save costs?
+
+The aggregated cloud usage from a large number of customers results in lower pay-as-you-go prices.
+
