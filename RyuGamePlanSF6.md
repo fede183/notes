@@ -11,6 +11,7 @@
 - {H-M-L}Tatsu: High-Medium-Low Tatsu
 - {H-M-L}Donkey: High-Medium-Low Donkey Kick
 - {H-M-L}Hash: High-Medium-Low Hashogeki
+- ShinShoruken: Special
  
 ## Antiair
 - CRHP
@@ -19,15 +20,13 @@
 ## Too Close to Antiair
 - Dash
 - JLK
-- JMP\>AirTatsu
+- JMP,AirTatsu
 
 ## Pocke
 - CRLPx2
 - CRLKx2
 - CRMK
 - CRMP
-- STHP
-- STMK
 
 ## Casual
 - CRMK | CRMP
@@ -35,16 +34,19 @@
     - If blocked? MFireball| MHash | EX-Fireball
 
 ## Punishing Combos
-- STMP\>STHP\>STHK
-- STMP\>CRMP\>MFireball
-- STMP\>CRMP\>EX-Fireball
-- STMP\>CRMP\>EX-Donkey\>HDP
+- STMP,STHP,STHK
+- STMP,CRMP,MFireball
+- STMP,CRMP,EX-Fireball
+- STMP,CRMP,EX-Donkey,HDP
+- STHK,CRHP,EX-Donkey,HDP
+- STHK,CRHP,EX-Donkey,AirMP,AirTatsu
+- Dash,-\>STMP,STMP,MHash,ShinShoruken
 
 ## Jumps Confirm by default
-- JHK/JHP\>STMP\>CRMP
+- JHK/JHP,STMP,CRMP
     - If connects? HDonkey.
     - If Blocked? LFireball.
-- JHK/JHP\>CRMK\>MTatsu
+- JHK/JHP,CRMK,MTatsu
 
 ## Defending to blocking jump attack
 - CRBlock+Grab
