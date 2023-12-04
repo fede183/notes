@@ -1,7 +1,5 @@
 # Notes for the exam
 
-AWS and how almost all of modern computing uses a basic client-server model.
-
 # Deployment models for cloud computing
 
 In a cloud-based deployment model, you can migrate existing applications to the cloud, or you can design and build new applications in the cloud.
