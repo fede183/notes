@@ -20,7 +20,7 @@ Computing in data centers often requires you to spend more money and time managi
 
 ## Stop guessing capacity
 
-With cloud computing, you don't have to predict how much infrastructure capacity you will need before deploying an application.
+You don't have to predict how much infrastructure capacity you will need before deploying an application.
 
 ## Benefit from massive economies of scale
 
@@ -154,7 +154,7 @@ Web-based interface for accessing and managing AWS services.
 
 ## AWS command line interface
 
-To save time when making API requests, you can use the AWS Command Line Interface (AWS CLI).
+To save time when making API requests.
 
 ## SDK
 
@@ -162,7 +162,7 @@ Another option for accessing and managing AWS services is the software developme
 
 ## AWS Elastic Beanstalk
 
-With AWS Elastic Beanstalk, you provide code and configuration settings, and Elastic Beanstalk deploys the resources necessary to perform the following tasks:
+You provide code and configuration settings, and Elastic Beanstalk deploys the resources necessary to perform the following tasks:
 
 - Adjust capacity
 - Load balancing
@@ -171,7 +171,7 @@ With AWS Elastic Beanstalk, you provide code and configuration settings, and Ela
 
 ## AWS CloudFormation
 
-With AWS CloudFormation, you can treat your infrastructure as code. This means that you can build an environment by writing lines of code instead of using the AWS Management Console to individually provision resources.
+You can treat your infrastructure as code. This means that you can build an environment by writing lines of code instead of using the AWS Management Console to individually provision resources.
 
 ## AWS Outposts
 
@@ -199,9 +199,9 @@ Service that lets you to establish a dedicated private connection between your d
 
 Section of a VPC in which you can group resources based on security or operational needs. Subnets can be public or private.
 
-Public subnets contain resources that need to be accessible by the public, such as an online store’s website.
+Public subnets contain resources that need to be accessible by the public, such as an online store's website.
 
-Private subnets contain resources that should be accessible only through your private network, such as a database that contains customers’ personal information and order histories.
+Private subnets contain resources that should be accessible only through your private network, such as a database that contains customers personal information and order histories.
 
 ## Network ACLs
 
@@ -230,6 +230,10 @@ Suppose that AnyCompany has a website hosted in the AWS Cloud. Customers enter t
 ## Amazon Route 53
 
 DNS web service. It gives developers and businesses a reliable way to route end users to internet applications hosted in AWS.
+
+## AWS CloudFront
+
+Content delivery network
 
 # Storage and databases
 
@@ -351,7 +355,13 @@ In-memory cache for DynamoDB.
 
 ## The AWS shared responsibility model
 
-Throughout this course, you have learned about a variety of resources that you can create in the AWS Cloud.
+### AWS responsibility
+
+Protects the infrastructure that runs all of the services offered in the AWS Cloud.
+
+### Customer responsibility
+
+Customers are responsible for the security of everything that they create and put in the AWS Cloud.
 
 ## IAM users
 
