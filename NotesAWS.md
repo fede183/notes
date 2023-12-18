@@ -71,7 +71,7 @@ Elastic Load Balancing is the AWS service that automatically distributes incomin
 
 ## Messaging and Queuing
 ### Amazon Simple Notification Service (Amazon SNS)
-Publish/Subscribe service. Using Amazon SNS topics, a publisher publishes messages to subscribers. This is similar to the coffee shop; the cashier provides coffee orders to the barista who makes the drinks.
+Publish/Subscribe service. Using Amazon SNS topics, a publisher publishes messages to subscribers.
 
 ### Amazon Simple Queue Service (Amazon SQS)
 Message queuing service.
@@ -113,8 +113,7 @@ Is a single data center or a group of data centers within a Region. A Region has
 ### Edge locations
 Site that Amazon CloudFront uses to store cached copies of your content closer to your customers for faster delivery.
 
- ## AWS management console
-
+### AWS management console
 Web-based interface for accessing and managing AWS services.
 
 ### AWS command line interface
@@ -289,7 +288,7 @@ Document that allows or denies permissions to AWS services and resources.
 Collection of IAM users. When you assign an IAM policy to a group, all users in the group are granted permissions specified by the policy.
 
 ### IAM roles
-In the coffee shop, an employee rotates to different workstations throughout the day.
+An IAM identity that you can create in your account that has specific permissions.
 
 ### AWS Organizations
 Suppose that your company has multiple AWS accounts. You can use AWS Organizations to consolidate and manage multiple AWS accounts within a central location.
@@ -323,7 +322,7 @@ Enables you to perform encryption operations through the use of cryptographic ke
 Web application firewall that lets you monitor network requests that come into your web applications.
 
 ### Amazon Inspector
-Suppose that the developers at the coffee shop are developing and testing a new ordering application. They want to make sure that they are designing the application in accordance with security best practices.
+Automatically discovers workloads, such as Amazon EC2 instances, containers, and Lambda functions, and scans them for software vulnerabilities and unintended network exposure.
 
 ### Amazon GuardDuty
 Service that provides intelligent threat detection for your AWS infrastructure and resources. It identifies threats by continuously monitoring the network activity and account behavior within your AWS environment.
