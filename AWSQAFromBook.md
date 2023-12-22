@@ -1,6 +1,6 @@
-# Questions
-
-## Section 1
+Questions
+=========
+# Section 1
 1. Which of the following best describes interoperability?
 
 A. Systems that work with any client software and access methods
@@ -121,7 +121,7 @@ D. The cloud provider gives the customer a fully configured network, but the cus
 
 Awnser: D. With Infrastructure as a Service, the cloud provider gives the customer a base environment where they can fully deploy virtual machines and virtual network devices. The cloud customer is responsible for all deployments and configurations beyond the base environment.
 
-## Section 2:
+# Section 2:
 1. Which protocol is most commonly used for federated authentication systems?
 
 A. JSON
@@ -242,7 +242,7 @@ D. MFA
 
 Awnser: D. Multifactor authentication (MFA) should always be configured on the root account of your AWS account to improve security and mitigate any potential access or damage that could occur if the password were ever disclosed or compromised.
 
-## Section 3
+# Section 3
 1. Which of the following is not one of the purposes of instance types under EC2?
 
 A. Compute optimized
@@ -363,7 +363,7 @@ D. AWS Digital Library (ADL)
 
 Awnser: B. The AWS Marketplace contains AMIs that are official and supported by the vendor. Many offer free trial periods for users before committing to a purchase.
 
-## Section 4
+# Section 4
 1. Which type of reserve instance receives the largest cost savings over on-demand pricing?
 
 A. Enterprise

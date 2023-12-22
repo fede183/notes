@@ -1,6 +1,7 @@
-# Ryu Game Plan Street Fighter 6
+Ryu Game Plan Street Fighter 6
+==============================
 
-## Alias
+# Alias
 - ST: Standing
 - CR: Croauching
 - {H-M-L}P: High-Medium-Low Punch
@@ -13,27 +14,27 @@
 - {H-M-L}Hash: High-Medium-Low Hashogeki
 - ShinShoruken: Special
  
-## Antiair
+# Antiair
 - CRHP
 - {H-M-L}DP
 
-## Too Close to Antiair
+# Too Close to Antiair
 - Dash
 - JLK
 - JMP,AirTatsu
 
-## Pocke
+# Pocke
 - CRLPx2
 - CRLKx2
 - CRMK
 - CRMP
 
-## Casual
+# Casual
 - CRMK | CRMP
     - If connects? MFireball | MTatsu | MDonkey
     - If blocked? MFireball| MHash | EX-Fireball
 
-## Punishing Combos
+# Punishing Combos
 - STMP,STHP,STHK
 - STMP,CRMP,MFireball
 - STMP,CRMP,EX-Fireball
@@ -42,11 +43,11 @@
 - STHK,CRHP,EX-Donkey,AirMP,AirTatsu
 - Dash,-\>STMP,STMP,MHash,ShinShoruken
 
-## Jumps Confirm by default
+# Jumps Confirm by default
 - JHK/JHP,STMP,CRMP
     - If connects? HDonkey.
     - If Blocked? LFireball.
 - JHK/JHP,CRMK,MTatsu
 
-## Defending to blocking jump attack
+# Defending to blocking jump attack
 - CRBlock+Grab
