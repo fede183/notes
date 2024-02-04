@@ -25,3 +25,7 @@ It solves the problem of the mass deployment tools, works like traditional ones 
 # Immutable atomic hosts
 Updates must often be applied via nonatomic operations, and there are many ways in witch host configurations can diverge and introduce unexpected behavior into systems.
 
+# Usefull commands
+## Remove images
+docker rmi image_name:version/image-id
+docker rm $(docker kill $(docker ps -aq))
