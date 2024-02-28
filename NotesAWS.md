@@ -43,20 +43,25 @@ Provides secure, resizable compute capacity in the cloud as Amazon EC2 instances
 ### EC2 reserved-reserve specific instance
 - more years - more discount
 
-### EC2 reserved convertable- same but you can convert instance details
+### EC2 reserved convertable
+- same but you can convert instance details
 
-### EC2 saving plans- flexible size
+### EC2 saving plans
+- flexible size
 - more discount - more long term commitment
 
-### EC2 spot instance-more discount, but you can lose them if your demand grows
+### EC2 spot instance
+- more discount, but you can lose them if your demand grows
 
-### EC2 dedicated hosts- a physical server
+### EC2 dedicated hosts
+- a physical server
 - allows to use your own
 
 ### EC2 dedicated instance-hardware dedicated to you
 - low level access
 
-### EC2 capacity reservations- no discount, get access on demand when you need it
+### EC2 capacity reservations
+- no discount, get access on demand when you need it
 
 # Auto Scaling EC2
 Enables you to automatically add or remove Amazon EC2 instances in response to changing application demand. By automatically scaling your instances in and out as needed, you can maintain a greater sense of application availability.
