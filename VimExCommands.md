@@ -27,6 +27,3 @@ Copy lines from 10 to 20 to the 30 line
 
 # :g/foo/s/bar/baz/g
 Search all lines that contain foo and replace bar with baz on these lines
-
-
-
