@@ -37,10 +37,12 @@ Provides secure, resizable compute capacity in the cloud as Amazon EC2 instances
 - Storage optimized instances
 
 ## Pricing:
-### EC2 on demand-high cost, no up front payments
+### EC2 on demand
+- high cost, no up front payments
 - no long-term
 
-### EC2 reserved-reserve specific instance
+### EC2 reserved
+- reserve specific instance
 - more years - more discount
 
 ### EC2 reserved convertable
@@ -57,7 +59,8 @@ Provides secure, resizable compute capacity in the cloud as Amazon EC2 instances
 - a physical server
 - allows to use your own
 
-### EC2 dedicated instance-hardware dedicated to you
+### EC2 dedicated instance
+- hardware dedicated to you
 - low level access
 
 ### EC2 capacity reservations
