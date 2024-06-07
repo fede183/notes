@@ -12,7 +12,7 @@ Ryu Game Plan Street Fighter 6
 - {H-M-L}Tatsu: High-Medium-Low Tatsu
 - {H-M-L}Donkey: High-Medium-Low Donkey Kick
 - {H-M-L}Hash: High-Medium-Low Hashogeki
-- ShinShoruken: Special
+- Special{1-2-3}
  
 # Antiair
 - CRHP
@@ -33,15 +33,20 @@ Ryu Game Plan Street Fighter 6
 - CRMK | CRMP
     - If connects? MFireball | MTatsu | MDonkey
     - If blocked? MFireball| MHash | EX-Fireball
+- CRLP, CRLP, LTatsu
+- CRMP, MDonkey
 
 # Punishing Combos
 - STMP,STHP,STHK
 - STMP,CRMP,MFireball
 - STMP,CRMP,EX-Fireball
-- STMP,CRMP,EX-Donkey,HDP
-- STHK,CRHP,EX-Donkey,HDP
-- STHK,CRHP,EX-Donkey,AirMP,AirTatsu
+- CRMP,EX-Donkey,HDP
+- CRHP,EX-Donkey,HDP
+- CRHP,EX-Donkey,AirTatsu
+- CRHP,EX-Donkey,AirMP
+- CRHP,EX-Donkey,Special2
 - Dash,-\>STMP,STMP,MHash,ShinShoruken
+- STHP, Drive, STHP, Drive, HDP, Special3
 
 # Jumps Confirm by default
 - JHK/JHP,STMP,CRMP
@@ -51,3 +56,7 @@ Ryu Game Plan Street Fighter 6
 
 # Defending to blocking jump attack
 - CRBlock+Grab
+
+# Agains
+## Zangief
+- Always store DP, really effective agains this rushes.
