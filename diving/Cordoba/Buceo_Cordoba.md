@@ -22,10 +22,28 @@ http://www.buceocordoba.com.ar/
 
 ## Agrupaci胣 Buzon Deportivos C贸rdob
 
-### Tom谩s Lawson 140, C贸rdoba, Argntia
+### Locaci胣
+Tom谩s Lawson 140, C贸rdoba, Argntia
 
 ### Web
 http://www.buzoscordoba.com/
 
 ### Tel胒ono
 +54 935-1618-7555
+
+### Notas
+No contestaron la llamada
+
+## Ecoactivity SA
+
+### Web
+ecoactivity.org
+
+### Tel胒ono
+0351 8802612
+
+### Locaci贸n
+AV. R胦 Bamba 241
+
+### Notas
+
