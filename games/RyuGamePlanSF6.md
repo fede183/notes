@@ -47,20 +47,22 @@ Ryu Game Plan Street Fighter 6
 
 # Punishing Combos
 - STMP, STHP, STHK
-- STMP, CRMP, MFireball
-- STMP, CRMP, EX-Fireball
-- CRMP, EX-Donkey, HDP
-- CRHP, EX-Donkey, HDP
-- CRHP, EX-Donkey, AirTatsu
-- CRHP, EX-Donkey, AirMP
-- CRHP, EX-Donkey, Special2
-- CRHP, EX-Donkey, Special3
+- STMP, CRMP,
+     * MFireball
+     * EX-Fireball
+- CRMP, EX-Donkey
+	 * HDP
+	 * AirTatsu
+	 * AirMP
+	 * Special2
+	 * Special3
 - DriveRush, Foward STMP, STMP, MHash, ShinShoruken
 - STHP, Drive, STHP, Drive, HDP, Special3
-- Foward STHP, CRMP, Fireball
-- Foward STHP, CRMP, MHash
-- Foward STHP, CRMP, LDonkey
-- Foward STHP, CRMP, AMP-EX-Hash, Special2
+- Foward STHP, CRMP
+     * Fireball
+	 * MHash
+	 * LDonkey
+	 * Special2
 
 # Jumps confirm by default
 - JHK/JHP, STMP, CRMP
@@ -82,6 +84,8 @@ Ryu Game Plan Street Fighter 6
 - STMP, Backward STHP, HDonkey, LDP
 - Antiair the Yuri Air Kick
 - Antiair the Akuma Air Fireball
+- Use more the STLP, Throw lop while on corners
+- Use DriveRush, CRMP, MFireball more often
 
 # Agains
 
@@ -96,6 +100,8 @@ Ryu Game Plan Street Fighter 6
 - Use CRMP, DriveRush more often.
     * Combine with STMP, STMP or STLP, STLP
 
+## ED
+- 
+
 # Notes
 - When on the ground, sometimes is better to take the throw and commit to prevent the worst case scenario in damage.
-
