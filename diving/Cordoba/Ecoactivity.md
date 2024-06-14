@@ -4,11 +4,11 @@ Ecoactivity SA
 # Web
 ecoactivity.org
 
-# TelÃfono
+# Teléfono
 0351 8802612
 
-# LocaciÃ³n
-AV. RÃo Bamba 241
+# Locación
+AV. Río Bamba 241
 
 # Notas
 

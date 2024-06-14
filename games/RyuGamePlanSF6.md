@@ -14,6 +14,10 @@ Ryu Game Plan Street Fighter 6
 - {H-M-L}Hash: High-Medium-Low Hashogeki
 - Special{1-2-3}
 - AMP: Amplified Fireball
+- Dash
+- DriveRush
+- DriveDefend
+- DriveAttack
  
 # Antiair
 - CRHP
@@ -36,6 +40,7 @@ Ryu Game Plan Street Fighter 6
     - If connects? MFireball | MTatsu | MDonkey
     - If blocked? MFireball| MHash | EX-Fireball
 - CRLP, CRLP, LTatsu
+- CRLK, CRLP, LTatsu
 - CRMP, MDonkey
 - Foward STHP, CRMP, MFireball
 - Foward STHP, CRMP, MHash
@@ -50,7 +55,7 @@ Ryu Game Plan Street Fighter 6
 - CRHP, EX-Donkey, AirMP
 - CRHP, EX-Donkey, Special2
 - CRHP, EX-Donkey, Special3
-- Dash, -\>STMP, STMP, MHash, ShinShoruken
+- DriveRush, Foward STMP, STMP, MHash, ShinShoruken
 - STHP, Drive, STHP, Drive, HDP, Special3
 - Foward STHP, CRMP, Fireball
 - Foward STHP, CRMP, MHash
@@ -64,9 +69,33 @@ Ryu Game Plan Street Fighter 6
 - JHK/JHP, CRMK, MTatsu
 
 # Defending to blocking jump attack
-- CRBlock+Grab
+- CRBlock + Grab
 - DriveDefend
 
+# Defence on the ground
+- Blocked
+- Delayed tech
+- Back Jump
+- DriveDefend
+
+# Future Training
+- STMP, Backward STHP, HDonkey, LDP
+- Antiair the Yuri Air Kick
+- Antiair the Akuma Air Fireball
+
 # Agains
+
 ## Zangief
 - Always store DP, really effective agains this rushes.
+- When he use the "Carge Punch": 
+    * Try to walk close to him before blocking. It will allow to Punishing.
+    * Neutral Jump at the right time and punish.
+    * Cross Jump and punish.
+
+## Yuri
+- Use CRMP, DriveRush more often.
+    * Combine with STMP, STMP or STLP, STLP
+
+# Notes
+- When on the ground, sometimes is better to take the throw and commit to prevent the worst case scenario in damage.
+

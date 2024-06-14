@@ -1,13 +1,13 @@
-Agrupaci√n Buzon Deportivos C√≥rdoba
+AgrupaciÛn Buzon Deportivos CÛrdoba
 ====================================
 
-# Locaci√n
-Tom√°s Lawson 140, C√≥rdoba, Aentina
+# LocaciÛn
+Tom·s Lawson 140, CÛrdoba, Argentina
 
 # Web
 http://www.buzoscordoba.com/
 
-# Tel√fono
+# TelÈfono
 +54 935-1618-7555
 
 # Notas
