@@ -1,16 +1,16 @@
 Cota Cero
 =========
 
-# TelÃfono
+# Teléfono
 02920 15-52-3957
 
 # Notas
 
-Barcos hundidos
+- Barcos hundidos
 
-10 puntos de buceo aprox.
+- 10 puntos de buceo aprox.
 
-Hablar por Whatapp
-- logistica
-- hospedaje
-- cantidad de buzos
+- Hablar por Whatapp
+    * logistica
+    * hospedaje
+    + cantidad de buzos
