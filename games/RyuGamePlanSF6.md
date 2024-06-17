@@ -3,7 +3,7 @@ Ryu Game Plan Street Fighter 6
 
 # Alias
 - ST: Standing
-- CR: Croauching
+- CR: Crouching
 - {H-M-L}P: High-Medium-Low Punch
 - {H-M-L}K: High-Medium-Low Kick
 - J: Jump
@@ -90,8 +90,8 @@ Ryu Game Plan Street Fighter 6
 # Agains
 
 ## Zangief
-- Always store DP, really effective agains this rushes.
-- When he use the "Carge Punch": 
+- Always store DP, really effective against this rushes.
+- When he use the "Charge Punch": 
     * Try to walk close to him before blocking. It will allow to Punishing.
     * Neutral Jump at the right time and punish.
     * Cross Jump and punish.
@@ -100,8 +100,8 @@ Ryu Game Plan Street Fighter 6
 - Use CRMP, DriveRush more often.
     * Combine with STMP, STMP or STLP, STLP
 
-## ED
-- 
+## Lilly
+- Don't make easy for her to build his wind ability, try to keep be close to her. Abusing Fireball not always work.
 
 # Notes
 - When on the ground, sometimes is better to take the throw and commit to prevent the worst case scenario in damage.
