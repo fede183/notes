@@ -47,7 +47,7 @@ Ken Game Plan Street Fighter 6
     * Special3, HDP
 
 # Jumps confirm by default
-
+- Jump HK, STMP, STHP, HDP
 
 # Defending to blocking jump attack
 - CRBlock + Grab
@@ -69,6 +69,7 @@ Ken Game Plan Street Fighter 6
     * STHP, Jinrai (pressure when opponent blocks)
     * STMP, STHP, Quick Dash, Tatsu
     * STMP, STHP, Quick Dash, DP
+    * CRLP, STMP, STHP, HDP
 
 # Against
 
