@@ -1,4 +1,4 @@
-Ryu Game Plan Street Fighter 6
+Ken Game Plan Street Fighter 6
 ==============================
 
 # Alias
@@ -10,10 +10,10 @@ Ryu Game Plan Street Fighter 6
 - {H-M-L}Fireball: High-Medium-Low Fireball
 - {H-M-L}DP: High-Medium-Low Antiair
 - {H-M-L}Tatsu: High-Medium-Low Tatsu
-- {H-M-L}Donkey: High-Medium-Low Donkey Kick
-- {H-M-L}Hash: High-Medium-Low Hashogeki
+- Quick Dash
+- {H-M-L}Dragonlash: High-Medium-Low Dragonlash Kick
+- {H-M-L}Jinrai: High-Medium-Low Jinrai Kick
 - Special{1-2-3}
-- AMP: Amplified Fireball
 - Dash
 - DriveRush
 - DriveDefend
@@ -33,42 +33,21 @@ Ryu Game Plan Street Fighter 6
 - CRLKx2
 - CRMK
 - CRMP
-- Foward STHP, CRMP, Fireball
 
 # Casual
-- CRMK | CRMP
-    - If connects? MFireball | MTatsu | MDonkey
-    - If blocked? MFireball| MHash | EX-Fireball
-- CRLP, CRLP, LTatsu
-- CRLK, CRLP, LTatsu
-- CRMP, MDonkey
-- Foward STHP, CRMP, MFireball
-- Foward STHP, CRMP, MHash
+- STMK, STMK, STHK
+- CRMK, MJinrai, Foward STLK
+- CRMK, MJinrai, Foward STMK (only if enemy crouching)
+- CRMK, MJinrai, Foward STHK
 
 # Punishing Combos
-- STMP, STHP, STHK
-- STMP, CRMP,
-     * MFireball
-     * EX-Fireball
-- CRMP, EX-Donkey
-	 * HDP
-	 * AirTatsu
-	 * AirMP
-	 * Special2
-	 * Special3
-- DriveRush, Foward STMP, STMP, MHash, ShinShoruken
-- STHP, Drive, STHP, Drive, HDP, Special3
-- Foward STHP, CRMP
-     * Fireball
-	 * MHash
-	 * LDonkey
-	 * Special2
+- STMP, STHP, HDP.
+- STMP, STHP, EX-Dragonolash.
+    * Special{1-2}
+    * Special3, HDP
 
 # Jumps confirm by default
-- JHK/JHP, STMP, CRMP
-    - If connects? HDonkey.
-    - If Blocked? LFireball.
-- JHK/JHP, CRMK, MTatsu
+
 
 # Defending to blocking jump attack
 - CRBlock + Grab
@@ -81,11 +60,15 @@ Ryu Game Plan Street Fighter 6
 - DriveDefend
 
 # Future Training
-- STMP, Backward STHP, HDonkey, LDP
 - Antiair the Yuri Air Kick
 - Antiair the Akuma Air Fireball
 - Use more the STLP, Throw lop while on corners
-- Use DriveRush, CRMP, MFireball more often
+- Use the advantageous walking speed to gain pressure
+- Prevent escape from the corner using LDP
+- Train the combos:
+    * STHP, Jinrai (pressure when opponent blocks)
+    * STMP, STHP, Quick Dash, Tatsu
+    * STMP, STHP, Quick Dash, DP
 
 # Against
 
@@ -98,7 +81,8 @@ Ryu Game Plan Street Fighter 6
 
 ## Yuri
 - Use CRMP, DriveRush more often.
-    * Combine with STMP, STMP or STLP, STLP
+    * Throw is blocking.
+    * STMP, STHP, HDP.
 
 ## Lilly
 - Don't make easy for her to build his wind ability, try to keep be close to her. Abusing Fireball not always work.
