@@ -63,6 +63,7 @@ Ryu Game Plan Street Fighter 6
 	 * MHash
 	 * LDonkey
 	 * Special2
+- Foward STHP, CRMP, LDonkey, Special3
 
 # Jumps confirm by default
 - JHK/JHP, STMP, CRMP
