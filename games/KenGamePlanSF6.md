@@ -13,7 +13,7 @@ Ken Game Plan Street Fighter 6
 - Quick Dash
 - {H-M-L}Dragonlash: High-Medium-Low Dragonlash Kick
 - {H-M-L}Jinrai: High-Medium-Low Jinrai Kick
-- Special{1-2-3}
+- Super{1-2-3}
 - Dash
 - DriveRush
 - DriveDefend
@@ -43,8 +43,8 @@ Ken Game Plan Street Fighter 6
 # Punishing Combos
 - STMP, STHP, HDP.
 - STMP, STHP, EX-Dragonolash.
-    * Special{1-2}
-    * Special3, HDP
+    * Super{1-2}
+    * Super3, HDP
 
 # Jumps confirm by default
 - Jump HK, STMP, STHP, HDP

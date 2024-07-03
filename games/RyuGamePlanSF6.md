@@ -12,7 +12,7 @@ Ryu Game Plan Street Fighter 6
 - {H-M-L}Tatsu: High-Medium-Low Tatsu
 - {H-M-L}Donkey: High-Medium-Low Donkey Kick
 - {H-M-L}Hash: High-Medium-Low Hashogeki
-- Special{1-2-3}
+- Super{1-2-3}
 - AMP: Amplified Fireball
 - Dash
 - DriveRush
@@ -54,16 +54,17 @@ Ryu Game Plan Street Fighter 6
 	 * HDP
 	 * AirTatsu
 	 * AirMP
-	 * Special2
-	 * Special3
+	 * Super2
+	 * Super3
 - DriveRush, Foward STMP, STMP, MHash, ShinShoruken
-- STHP, Drive, STHP, Drive, HDP, Special3
+- STHP, Drive, STHP, Drive, HDP, Super3
 - Foward STHP, CRMP
      * Fireball
 	 * MHash
 	 * LDonkey
-	 * Special2
-- Foward STHP, CRMP, LDonkey, Special3
+	 * Super2
+     * MDP, Super3
+- Foward STHP, CRMP, LDonkey, Super3
 
 # Jumps confirm by default
 - JHK/JHP, STMP, CRMP
