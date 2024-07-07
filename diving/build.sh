@@ -1,4 +1,4 @@
-!#/bin/sh
+#!/bin/sh
 
 files=$(ls | grep ".ms" | sed "s/\..\+$//g")
 
