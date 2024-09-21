@@ -11,5 +11,5 @@ ecoactivity.org
 .subtitle Locaci\*[']on
 AV. R\*[']io Bamba 241
 
-.subtitle Notas
-
+.subtitle "Notas"
+.option "Llamar"

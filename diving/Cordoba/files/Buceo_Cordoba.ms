@@ -21,7 +21,7 @@ http://www.buceocordoba.com.ar/
 .subtitle "Notas"
 .option "Botes hundidos"
 .option "El instructor va liberado, liderado por el instructor"
-.option "Servicio con launch"
+.option "Servicio con almuerzo"
 .option "Recomendable hacerlo en Septiembre, temperaturas frias en Agosto"
 .option "Mejor visibilidad en primavera-verano"
 .option "Algo de vida acuatica"
