@@ -28,6 +28,7 @@ Ryu Game Plan Street Fighter 6
 - CRMK
 - CRMP
 - Foward STHP, CRMP, Fireball
+- CRHP, Fireball
 
 # Casual
 - CRMK | CRMP
