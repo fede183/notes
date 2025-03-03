@@ -46,6 +46,9 @@ Ryu Game Plan Street Fighter 6
     * Super
 - CRMP, MTatsu
 - CRHP, HDP, Cancel to Super
+- JHK, Cancel to Super
+- JHK, CRHK
+- JHP, LDP, Cancel to Super
 
 # Jumps confirm by default
 - JHK/JHP, STMP, CRMP
