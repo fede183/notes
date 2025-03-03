@@ -48,6 +48,7 @@ Ryu Game Plan Street Fighter 6
 - CRHP, HDP, Cancel to Super
 - JHK, Cancel to Super
 - JHK, CRHK
+- JHP, LDP
 - JHP, LDP, Cancel to Super
 
 # Jumps confirm by default
